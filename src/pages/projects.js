@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Zoom, Fade } from 'react-reveal'
+import { Fade } from 'react-reveal'
 import XLaunch from '../images/X-Launch.jpg'
 import Pomodoro from '../images/PomodoroTimer.png'
 import Umami from '../images/UMAMI.jpg'
