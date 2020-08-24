@@ -2,19 +2,19 @@ import React from "react"
 import { Link } from "gatsby"
 
 import NavBar from "../components/navbar"
+import LandingPage from "./landing"
+import Projects from "./projects"
 
 const IndexPage = () => (
-  <div>
-    <h1>Hello World</h1>
-    <h1>Hello World</h1>
-    <h1>Hello World</h1>
-    <h1>Hello World</h1>
-    <h1>Hello World</h1>
-    <h1>Hello World</h1>
-    <h1>Hello World</h1>
-    <h1>Hello World</h1>
-    {/* <NavBar /> */}
-  </div>
+	<div>
+		<div>
+			<NavBar />
+		</div>
+		<div className="landing-container">
+			<LandingPage / >
+		</div>
+		<Projects />
+	</div>
 )
 
 export default IndexPage

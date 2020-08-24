@@ -1,0 +1,171 @@
+@import url('https://font.googleapis.com/css2?family=Open+San&display=swap');
+
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.about--details {
+	line-height: 1.5;
+	font-size: 15px;
+}
+
+.headroom--scrolled {
+	background-color: rgba(255,255,255,0.9);
+	padding-bottom: 15px;
+}
+
+.navigation-bar {
+	padding: 0;
+	z-index: 1;
+	width: 100%;
+}
+
+.navigation--header {
+	display: flex;
+	padding-top: 20px;
+	margin: 0;
+	flex-direction: row;
+}
+
+.navigation--option{
+	list-style-type: none;
+	margin-right: 3em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	list-style: none;
+	cursor: pointer;
+	font-weight: 600;
+}
+
+.landing-container {
+	display:flex;
+	justify-content: center;
+	height: 95vh;
+}
+
+.landing-page {
+	display: flex;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.information-section {
+	max-width: 400px;
+}
+
+.profile-picture {
+	width: 400px;
+	margin-right: 60px;
+	object-fit: contain;
+	object-position: 75% 0%;
+}
+
+.profile-name {
+	font-size: 64px;
+	/* margin-top: 5px; */
+}
+
+.header--name {
+	margin-top: 0;
+	padding: 0;
+	padding-top: 50px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 3em;
+}
+
+.project-container-inner {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5em;
+}
+
+.project-section {
+	display: flex;
+	max-width: 1400px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+.project-section-alt {
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.project-desc {
+	display: grid;
+	align-content: center;
+	align-content: space-around;
+}
+
+.project-description {
+	margin: auto;
+	/* width: 80%; */
+}
+
+
+.project--details a {
+	color: black;
+	font-size: 14px;
+}
+
+.project--details {
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+.project-section-description {
+	margin-left: 100px;
+	margin-right: 80px;
+}
+
+.project-section-description-alt {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.project--as {
+	font-size: 12px;
+	font-weight: 600;
+	color: #252525;
+}
+
+.project--name {
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 400;
+	border-bottom: 1px solid #fca311;
+}
+
+.project-image{
+	width: 700px;
+	padding: 0;
+}
+
+.social-section {
+	display: flex;
+}
+
+.social--button {
+	margin-right: 25px;
+	display: inline-block;
+	border: none;
+	/* padding: 10px 20px; */
+	text-align: center;
+	font-size: 12px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.social--icon {
+	padding: 0;
+	margin: 0;
+	width: 24px;
+	height: 24px;
+}
