@@ -1,4 +1,6 @@
-@import url('https://font.googleapis.com/css2?family=Open+San&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+San&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 body, html {
 	margin: 0;
@@ -6,6 +8,8 @@ body, html {
 	height: 100%;
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Noto Sans', sans-serif; */
+	font-family: 'Alata', sans-serif;
 }
 
 .about--details {
@@ -39,7 +43,7 @@ body, html {
 	color: black;
 	list-style: none;
 	cursor: pointer;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .landing-container {
@@ -59,15 +63,20 @@ body, html {
 }
 
 .profile-picture {
+	display: block;
 	width: 400px;
+	/* object-fit: contain; */
+	/* object-position: 75% 0%; */
+}
+
+.image-section {
 	margin-right: 60px;
-	object-fit: contain;
-	object-position: 75% 0%;
+	padding-top: 35px;
 }
 
 .profile-name {
 	font-size: 64px;
-	/* margin-top: 5px; */
+	margin-top: -25px;
 }
 
 .header--name {
@@ -132,7 +141,6 @@ body, html {
 
 .project--as {
 	font-size: 12px;
-	font-weight: 600;
 	color: #252525;
 }
 
@@ -147,6 +155,8 @@ body, html {
 	width: 700px;
 	padding: 0;
 }
+
+
 
 .social-section {
 	display: flex;
@@ -178,7 +188,7 @@ body, html {
 	bottom: 0;
 	padding-top: 200px;
 	right: 288px;
-	
+
 }
   
 .arrow-down::after {
@@ -200,18 +210,49 @@ body, html {
 }
 
 @-webkit-keyframes arrow {
-0%, 100% {
-	top: 50px;
+	0%, 100% {
+		top: 50px;
+	}
+	50% {
+		top: 80px;
+	}
+	}
+	@keyframes arrow {
+	0%, 100% {
+		top: 50px;
+	}
+	50% {
+		top: 80px;
+	}
 }
-50% {
-	top: 80px;
+
+.profile-overlay {
+	/* position: absolute; */
+	background-color: rgb(44,44,44);
 }
+
+.button-information {
+	position: relative;
+	padding-bottom: 2px;
 }
-@keyframes arrow {
-0%, 100% {
-	top: 50px;
+
+.button-set {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;	
+	margin-right: 10px;
 }
-50% {
-	top: 80px;
+
+.button-close {
+	margin-left: 15px;
+	background-color: #F12121;
 }
+
+.button-min {
+	background-color: #F1DC21;
+}
+
+.button-exp {
+	background-color: #21F136;
 }

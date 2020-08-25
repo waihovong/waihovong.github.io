@@ -1,14 +1,18 @@
 import React from "react"
-import profile from '../images/profile.png'
+import profile from '../images/profile1.png'
+import ImageOverlay from '../components/image_overlay'
 
 export default function LandingPage() {
   return (
     <div className="landing-page" id="home">
         <div className="image-section">
-            <img src={profile}
-                className="profile-picture"
-                alt="profile picture"
-            />
+            <ImageOverlay />
+            <div className="profile-image">
+                <img src={profile}
+                    className="profile-picture"
+                    alt="profile picture"
+                />
+            </div>
         </div>
         <div className="information-section">
             <div className="profile-name"> 
