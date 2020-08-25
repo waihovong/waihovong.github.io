@@ -11,7 +11,7 @@ export default function Projects() {
     return (
         <div className="project-container">
             <div className="project-container-inner">
-                <h2 className="header--name" id="projects">Projects</h2>
+                <h2 className="header--name header--format" id="projects">Projects</h2>
             </div>
             <div className="project-section">
                 <Fade left>
