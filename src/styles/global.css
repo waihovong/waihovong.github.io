@@ -37,15 +37,21 @@ body, html {
 	flex-direction: row;
 }
 
-.navigation--option{
+.navigation--option {
 	list-style-type: none;
 	margin-right: 3em;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: black;
-	list-style: none;
+	list-style-type: none;
 	cursor: pointer;
 	font-weight: 500;
+}
+
+.navigation--option a {
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
 }
 
 .landing-container {
