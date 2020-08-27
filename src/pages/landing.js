@@ -1,5 +1,8 @@
 import React from "react"
-import profile from '../images/profile1.png'
+// import profile from '../images/profile1.png'
+// import profile from '../images/user.jpeg'
+import profile from '../images/me.jpeg'
+
 import ImageOverlay from '../components/image_overlay'
 
 export default function LandingPage() {
