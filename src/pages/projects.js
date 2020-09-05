@@ -25,7 +25,7 @@ export default function Projects() {
                 <div className="project-desc project-section-description">
                     <div className="project-description">
                         <h2 className="project--name">X Launch <span className="project--as">SpaceX mission tracker</span></h2>
-                        <p className="project--details">X Launch is a site dedicated the SpaceX, utilising data provided by <a href="https://github.com/r-spacex/SpaceX-API" rel="noopener noreferrer" target="_blank">SpaceX-API</a>. X Launch gives you the latest and previous launch missions as well as vehicle information on SpaceX's fleet.</p>
+                        <p className="project--details">X Launch is a site dedicated to SpaceX, utilising data provided by <a href="https://github.com/r-spacex/SpaceX-API" rel="noopener noreferrer" target="_blank">SpaceX-API</a>. X Launch gives you the latest and previous launch missions as well as vehicle information on SpaceX's fleet.</p>
                     </div>
                     <div className="social-section">
                         <div>
