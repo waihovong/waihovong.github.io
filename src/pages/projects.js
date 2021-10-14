@@ -16,10 +16,15 @@ export default function Projects() {
             <div className="project-section">
                 <Fade left>
                     <div className="project-section-image">
+                        <a href="https://waihovong.github.io/x-launch/"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            >
                             <img src={XLaunch}
                                 className="project-image"
                                 alt="x launch project"
                                 />
+                        </a>
                     </div>
                 </Fade>
                 <div className="project-desc project-section-description">
@@ -93,21 +98,31 @@ export default function Projects() {
                     </div>
                 </div>
                 <Fade right>
-                    <div className="project-section-image">    
-                        <img src={Pomodoro}
-                            className="project-image"
-                            alt="pomodoro project"
+                    <div className="project-section-image">
+                        <a href="https://waihovong.github.io/Pomodoro-25/"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >    
+                            <img src={Pomodoro}
+                                className="project-image"
+                                alt="pomodoro project"
                             />
+                        </a>
                     </div>
                 </Fade>
             </div>
             <div className="project-section">
                 <Fade left >
                     <div className="project-section-image">
-                        <img src={Umami}
-                            className="project-image"
-                            alt="umami project"
-                            />
+                        <a href="https://github.com/waihovong/umami"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                >
+                            <img src={Umami}
+                                className="project-image"
+                                alt="umami project"
+                                />
+                        </a>
                     </div>
                 </Fade>
                 <div className="project-desc project-section-description">

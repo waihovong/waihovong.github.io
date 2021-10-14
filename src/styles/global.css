@@ -160,6 +160,12 @@ body, html {
 .project-image{
 	width: 700px;
 	padding: 0;
+	transition: opacity 0.3s;
+  	-webkit-transition: opacity 0.3s;
+}
+
+.project-image:hover {
+	opacity: 0.7;
 }
 
 .social-section {
@@ -189,6 +195,7 @@ body, html {
 	bottom: 0;
 	padding-top: 200px;
 	right: 50%;
+	cursor: pointer;
 
 }
   

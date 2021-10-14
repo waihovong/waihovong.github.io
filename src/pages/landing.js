@@ -1,9 +1,8 @@
 import React from "react"
-// import profile from '../images/profile1.png'
-// import profile from '../images/user.jpeg'
 import profile from '../images/me-min.jpeg'
-
+import { Link } from 'react-scroll'
 import ImageOverlay from '../components/image_overlay'
+import '../styles/global.css'
 
 export default function LandingPage() {
   return (
@@ -22,13 +21,16 @@ export default function LandingPage() {
                 Wai Ho Vong
             </div>
             <div className="about-section">
-                <p className="about--details">Hi, I'm Wai Ho! I'm a final year Computer Science student at The University of Adelaide. <br /> 
+                <p className="about--details">Hi, I'm Wai Ho! graduate Computer Science student at The University of Adelaide. <br/>
+                    Currently working full-time  as a graduate developer.<br /> 
                     I'm passionate about front-end development and have an interest in fullstack development. <br /> <br />
                     My hobbies include astronomy, listening to music, photography and Formula 1.
                 </p>
             </div>
         </div>
-        <div className="arrow-down"></div>
+        <Link to="project-container" smooth={true}>
+            <div className="arrow-down"></div>
+        </Link>
     </div>
   )
 }
