@@ -22,7 +22,7 @@ export default function LandingPage() {
             </div>
             <div className="about-section">
                 <p className="about--details">Hi, I'm Wai Ho! Graduate Computer Science student at The University of Adelaide. <br/>
-                    Currently working full-time  as a graduate developer.<br /> 
+                    Currently working as a software engineer.<br /> 
                     I'm passionate about front-end development and have an interest in fullstack development. <br /> <br />
                     My hobbies include astronomy, listening to music, photography and Formula 1.
                 </p>
