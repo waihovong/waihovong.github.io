@@ -1,6 +1,5 @@
 import React from "react";
 import Photo from "./photo.js";
-import { Link, } from "react-router-dom"
 
 import "../styles/global.css"
 

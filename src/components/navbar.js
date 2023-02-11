@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-import Photography from '../pages/photo';
 import PDF from '../components/WaiHoVong.pdf'
 
 import "../styles/global.css"
