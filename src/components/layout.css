@@ -1,0 +1,15 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.navigation--header{
+  list-style: none;
+}
+
+.nagivation--option{
+  list-style-type: none;
+  font-size: 4em;
+}
