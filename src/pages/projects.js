@@ -1,6 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import { Fade } from 'react-reveal'
 import XLaunch from '../images/X-Launch.jpg'
 import Pomodoro from '../images/PomodoroTimer.png'
 import Umami from '../images/UMAMI.jpg'
@@ -14,7 +12,6 @@ export default function Projects() {
                 <h2 className="header--name header--format" id="projects">Projects</h2>
             </div>
             <div className="project-section">
-                <Fade left>
                     <div className="project-section-image">
                         <a href="https://waihovong.github.io/x-launch/"
                             rel="noopener noreferrer"
@@ -26,7 +23,6 @@ export default function Projects() {
                                 />
                         </a>
                     </div>
-                </Fade>
                 <div className="project-desc project-section-description">
                     <div className="project-description">
                         <h2 className="project--name">X Launch <span className="project--as">SpaceX mission tracker</span></h2>
@@ -97,7 +93,6 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
-                <Fade right>
                     <div className="project-section-image">
                         <a href="https://waihovong.github.io/Pomodoro-25/"
                             rel="noopener noreferrer"
@@ -109,10 +104,8 @@ export default function Projects() {
                             />
                         </a>
                     </div>
-                </Fade>
             </div>
             <div className="project-section">
-                <Fade left >
                     <div className="project-section-image">
                         <a href="https://github.com/waihovong/umami"
                                     rel="noopener noreferrer"
@@ -124,7 +117,6 @@ export default function Projects() {
                                 />
                         </a>
                     </div>
-                </Fade>
                 <div className="project-desc project-section-description">
                     <div className="project-description">
                         <h2 className="project--name">UMAMI <span className="project--as">Restaurant booking web application</span></h2>

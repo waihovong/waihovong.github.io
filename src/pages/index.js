@@ -15,7 +15,7 @@ const IndexPage = () => (
 			<NavBar />
 		</div>
 		<div className="landing-container">
-			<LandingPage / >
+			<LandingPage />
 		</div>
 		<Projects />
 	</div>
