@@ -68,4 +68,10 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-dist/
+component*.{js,js.map}
+framework*.{js,js.map}
+polyfill*.{js,js.map}
+webpack*.{js,js.map}
+styles*.{js,js.map}
+app*.{js,js.map}
+commons*.{js,js.map}
