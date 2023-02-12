@@ -4,7 +4,7 @@ import Photo from "./photo.js";
 import "../styles/global.css"
 
 import SKV1 from '../images/Portfolio/Vertical/Zine-4574-min.jpg' //
-import SKV2 from '../images/Portfolio/Vertical/DSCF4668-2-min.jpg' //
+import SKV2 from '../images/Portfolio/Vertical/Zine-4668-2-min.jpg' //
 import SKV3 from '../images/Portfolio/Vertical/Zine-4739-min.jpg'
 import SKV4 from '../images/Portfolio/Vertical/Zine-4776-min.jpg'
 import SKV5 from '../images/Portfolio/Vertical/Zine-4803-min.jpg'
@@ -39,7 +39,7 @@ const Photography = () => {
         {
           image1: SKV3,
           image2: SKV4,
-          title: "", 
+          title: "34", 
           orientation: "vertical"
         },
         {
@@ -57,13 +57,13 @@ const Photography = () => {
         {
           image1: SKV5,
           image2: SKV12,
-          title: "", 
+          title: "512", 
           orientation: "vertical"
         },
         {
           image1: SKV6,
           image2: SKV7,
-          title: "", 
+          title: "67", 
           orientation: "vertical"
         },
         {
@@ -74,15 +74,15 @@ const Photography = () => {
           },
         {
           image1: SKV8,
-          image2: SKV9,
-          title: "", 
+          image2: SKV11,
+          title: "89", 
           orientation: "vertical"
         },
 
         {
             image1: SKV10,
-            image2: SKV11,
-            title: "", 
+            image2: SKV9,
+            title: "1011", 
             orientation: "vertical"
           },
         {
@@ -95,7 +95,7 @@ const Photography = () => {
       ];
 
     return (
-        <div>
+        <div className="container">
             <div className="title">
                 <h1>Photography</h1>
                 <h3>2022</h3>
