@@ -6,8 +6,8 @@ const Photo = ({image1, image2, title, orientation}) => {
     return (
       <div className="photography-container-grid vertical">
         <div>
-          <img src={image1} alt={title}  />
-          <img src={image2} alt={title}  />
+          <img src={image1} alt={title} loading="lazy"/>
+          <img src={image2} alt={title} loading="lazy" />
         </div>
       </div>
     )
@@ -16,7 +16,7 @@ const Photo = ({image1, image2, title, orientation}) => {
   {
     return (
 		<div className="photography-container-grid horizontal">
-			<img src={image1} alt={title} />
+			<img src={image1} alt={title} loading="lazy"/>
 		</div>
     )
   }
