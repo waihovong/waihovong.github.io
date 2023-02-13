@@ -16,7 +16,7 @@ import SKV10 from '../images/Portfolio/Vertical/Zine-3816-min.webp' //
 import SKV11 from '../images/Portfolio/Vertical/Zine-5653-min.webp'
 import SKV12 from '../images/Portfolio/Vertical/Zine-4639-min.webp'
 
-import SKH1 from '../images/Portfolio/Horizontal/Zine-2308-min.webp'
+import SKH1 from '../images/Portfolio/Horizontal/Zine-2308-min.jpg'
 import SKH2 from '../images/Portfolio/Horizontal/Zine-4592-min.webp'
 import SKH3 from '../images/Portfolio/Horizontal/Zine-4871-min.webp'
 import SKH4 from '../images/Portfolio/Horizontal/Zine-5228-2-min.webp'
