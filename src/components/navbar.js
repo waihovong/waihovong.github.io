@@ -13,13 +13,6 @@ const NavBar = () => (
                 <Link to={`/photography/`} className="photo-cta"> PHOTOGRAPHY </Link>
                 <br/>
                 <li className="navigation--option">
-                    <a href="mailto:waihovong@gmail.com"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                        Contact
-                    </a>
-                </li>
-                <li className="navigation--option">
                     <a href={PDF}
                     target="_blank"
                     rel="noopener noreferrer">

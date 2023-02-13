@@ -3,24 +3,24 @@ import Photo from "./photo.js";
 
 import "../styles/global.css"
 
-import SKV1 from '../images/Portfolio/Vertical/Zine-4574-min.jpg' //
-import SKV2 from '../images/Portfolio/Vertical/Zine-4668-2-min.jpg' //
-import SKV3 from '../images/Portfolio/Vertical/Zine-4739-min.jpg'
-import SKV4 from '../images/Portfolio/Vertical/Zine-4776-min.jpg'
-import SKV5 from '../images/Portfolio/Vertical/Zine-4803-min.jpg'
-import SKV6 from '../images/Portfolio/Vertical/Zine-5162-min.jpg'
-import SKV7 from '../images/Portfolio/Vertical/Zine-5236-2-min.jpg'
-import SKV8 from '../images/Portfolio/Vertical/Zine-5565-min.jpg'
-import SKV9 from '../images/Portfolio/Vertical/Zine-3774-3-min.jpg'
-import SKV10 from '../images/Portfolio/Vertical/Zine-3816-min.jpg' //
-import SKV11 from '../images/Portfolio/Vertical/Zine-5653-min.jpg'
-import SKV12 from '../images/Portfolio/Vertical/Zine-4639-min.jpg'
+import SKV1 from '../images/Portfolio/Vertical/Zine-4574-min.webp' //
+import SKV2 from '../images/Portfolio/Vertical/Zine-4668-2-min.webp' //
+import SKV3 from '../images/Portfolio/Vertical/Zine-4739-min.webp'
+import SKV4 from '../images/Portfolio/Vertical/Zine-4776-min.webp'
+import SKV5 from '../images/Portfolio/Vertical/Zine-4803-min.webp'
+import SKV6 from '../images/Portfolio/Vertical/Zine-5162-min.webp'
+import SKV7 from '../images/Portfolio/Vertical/Zine-5236-2-min.webp'
+import SKV8 from '../images/Portfolio/Vertical/Zine-5565-min.webp'
+import SKV9 from '../images/Portfolio/Vertical/Zine-3774-3-min.webp'
+import SKV10 from '../images/Portfolio/Vertical/Zine-3816-min.webp' //
+import SKV11 from '../images/Portfolio/Vertical/Zine-5653-min.webp'
+import SKV12 from '../images/Portfolio/Vertical/Zine-4639-min.webp'
 
-import SKH1 from '../images/Portfolio/Horizontal/Zine-2308-min.jpg'
-import SKH2 from '../images/Portfolio/Horizontal/Zine-4592-min.jpg'
-import SKH3 from '../images/Portfolio/Horizontal/Zine-4871-min.jpg'
-import SKH4 from '../images/Portfolio/Horizontal/Zine-5228-2-min.jpg'
-import SKH5 from '../images/Portfolio/Horizontal/Zine-2411-min.jpg'
+import SKH1 from '../images/Portfolio/Horizontal/Zine-2308-min.webp'
+import SKH2 from '../images/Portfolio/Horizontal/Zine-4592-min.webp'
+import SKH3 from '../images/Portfolio/Horizontal/Zine-4871-min.webp'
+import SKH4 from '../images/Portfolio/Horizontal/Zine-5228-2-min.webp'
+import SKH5 from '../images/Portfolio/Horizontal/Zine-2411-min.webp'
 
 const Photography = () => {
     const images = [
