@@ -16,6 +16,13 @@ import SKV10 from '../images/Portfolio/Vertical/Zine-3816-min.webp' //
 import SKV11 from '../images/Portfolio/Vertical/Zine-5653-min.webp'
 import SKV12 from '../images/Portfolio/Vertical/Zine-4639-min.webp'
 
+import SKV13 from '../images/Portfolio/Vertical/Zine-5694-2-min.jpg'
+import SKV14 from '../images/Portfolio/Vertical/Zine-4001-min.jpg'
+import SKV15 from '../images/Portfolio/Vertical/Zine-2903-min.jpg'
+import SKV16 from '../images/Portfolio/Vertical/Zine-2844-min.jpg'
+import SKV17 from '../images/Portfolio/Vertical/Zine-4719-min.webp'
+import SKV18 from '../images/Portfolio/Vertical/Zine_2717-2-min.jpg'
+
 import SKH1 from '../images/Portfolio/Horizontal/Zine-2308-min.jpg'
 import SKH2 from '../images/Portfolio/Horizontal/Zine-4592-min.webp'
 import SKH3 from '../images/Portfolio/Horizontal/Zine-4871-min.webp'
@@ -49,16 +56,16 @@ const Photography = () => {
           orientation: "horizontal"
         },
         {
-          image1: SKH3,
-          image2: null,
-          title: "", 
-          orientation: "horizontal"
-        },
-        {
           image1: SKV5,
           image2: SKV12,
           title: "512", 
           orientation: "vertical"
+        },
+        {
+          image1: SKH3,
+          image2: null,
+          title: "", 
+          orientation: "horizontal"
         },
         {
           image1: SKV6,
@@ -78,7 +85,6 @@ const Photography = () => {
           title: "89", 
           orientation: "vertical"
         },
-
         {
             image1: SKV10,
             image2: SKV9,
@@ -86,11 +92,23 @@ const Photography = () => {
             orientation: "vertical"
           },
         {
-          image1: null,
-          image2: SKH4,
-          title: "", 
-          orientation: "horizontal"
+          image1: SKV13,
+          image2: SKV17,
+          title: "",
+          orientation: "vertical"
         },
+        {
+          image1: SKV15,
+          image2: SKV16,
+          title: "",
+          orientation: "vertical"
+        },
+        {
+          image1: SKV14,
+          image2: SKV18,
+          title: "",
+          orientation: "vertical"
+        }
 
       ];
 
